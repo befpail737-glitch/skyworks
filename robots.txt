@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /product-details.html
+
+Sitemap: https://www.skyworksinc.com/sitemap.xml

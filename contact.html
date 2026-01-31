@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - LiTong Group 全球销售网络 | 力通电子</title>
+    <meta name="description" content="联系LiTong Group - 全球领先的电子元器件分销商。获取产品咨询、技术支持、报价等服务。WhatsApp: +86 15013702378, WeChat: +86 18612518271">
+    <meta name="keywords" content="LiTong Group, 电子元器件分销, 联系我们, 力通电子, WhatsApp, WeChat, 全球销售网络, 技术支持, 销售咨询, 报价请求">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.litong-group.com/contact/">
+    <meta property="og:title" content="联系我们 - LiTong Group 全球销售网络">
+    <meta property="og:description" content="联系LiTong Group - 全球领先的电子元器件分销商。获取产品咨询、技术支持、报价等服务。">
+    <meta property="og:image" content="https://www.litong-group.com/images/contact-hero.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="联系我们 - LiTong Group 全球销售网络">
+    <meta name="twitter:description" content="联系LiTong Group - 全球领先的电子元器件分销商。获取产品咨询、技术支持、报价等服务。">
+    <meta name="twitter:image" content="https://www.litong-group.com/images/contact-hero.jpg">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "力通电子",
+        "legalName": "LiTong Group - 全球电子元器件分销商",
+        "description": "全球领先的电子元器件分销商，专业销售各类半导体产品、集成电路、分立器件等",
+        "url": "https://www.litong-group.com",
+        "logo": "https://www.litong-group.com/power_electronics_logo.svg",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "香港科学园",
+            "addressLocality": "香港",
+            "addressRegion": "香港",
+            "postalCode": "0000",
+            "addressCountry": "HK"
+        },
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+86 15013702378",
+                "contactType": "sales",
+                "areaServed": "Worldwide",
+                "availableLanguage": "Chinese"
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "+86 18612518271",
+                "contactType": "technical support",
+                "areaServed": "Worldwide",
+                "availableLanguage": "Chinese"
+            },
+            {
+                "@type": "ContactPoint",
+                "email": "info@litong-group.com",
+                "contactType": "customer service",
+                "areaServed": "Worldwide",
+                "availableLanguage": "Chinese"
+            }
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/company/litong-group",
+            "https://weibo.com/litonggroup"
+        ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0072ce; /* 科技蓝主色调 */
+            --primary-dark: #0059a3;
+            --primary-light: #e6f2ff;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --text-primary: #2c3e50;
+            --text-secondary: #7f8c8d;
+            --border-color: #ecf0f1;
+            --shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .site-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            border-color: var(--primary-dark);
+        }
+
+        .page-hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .contact-main {
+            padding: 2rem 0;
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 300px; /* 主内容区和侧边栏 */
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .contact-main-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .contact-section {
+            background: white;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .contact-card {
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .contact-card h4 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .sidebar {
+            background: white;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            padding: 1.5rem;
+            height: fit-content;
+            align-self: start;
+        }
+
+        .quick-contact {
+            margin-bottom: 1.5rem;
+        }
+
+        .quick-contact h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 0;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .contact-link:hover {
+            color: var(--primary-color);
+        }
+
+        .contact-link strong {
+            margin-right: 0.5rem;
+        }
+
+        .region-section {
+            margin-bottom: 2rem;
+        }
+
+        .region-title {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">跳转到主要内容</a>
+
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-area">
+                    <a href="/" class="logo" aria-label="LiTong Group官网">
+                        <img src="power_electronics_logo.svg" alt="LiTong Group - 全球电子元器件分销商" width="180" height="40">
+                    </a>
+                </div>
+
+                <nav class="main-navigation" role="navigation" aria-label="主导航">
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-expanded="false" aria-controls="main-menu">
+                        <span class="sr-only">切换菜单</span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+
+                    <ul class="nav-menu" id="main-menu">
+                        <li><a href="/" class="nav-link">首页</a></li>
+                        <li><a href="/products/" class="nav-link">产品中心</a></li>
+                        <li><a href="/solutions/" class="nav-link">解决方案</a></li>
+                        <li><a href="/technical-support/" class="nav-link">技术支持</a></li>
+                        <li><a href="/news/" class="nav-link">新闻资讯</a></li>
+                        <li><a href="/about/" class="nav-link">关于我们</a></li>
+                        <li><a href="/contact/" class="nav-link active" aria-current="page">联系我们</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true">
+        <div class="mobile-menu-content">
+            <ul class="mobile-nav-menu">
+                <li><a href="/" class="nav-link">首页</a></li>
+                <li><a href="/products/" class="nav-link">产品中心</a></li>
+                <li><a href="/solutions/" class="nav-link">解决方案</a></li>
+                <li><a href="/technical-support/" class="nav-link">技术支持</a></li>
+                <li><a href="/news/" class="nav-link">新闻资讯</a></li>
+                <li><a href="/about/" class="nav-link">关于我们</a></li>
+                <li><a href="/contact/" class="nav-link active" aria-current="page">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="面包屑导航">
+        <div class="container">
+            <ol>
+                <li><a href="/">首页</a></li>
+                <li><span aria-current="page">联系我们</span></li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>联系我们</h1>
+                <p>我们的全球销售网络随时为您提供专业服务</p>
+            </div>
+        </section>
+
+        <div class="contact-main">
+            <div class="contact-container">
+                <div class="contact-main-content">
+                    <div class="contact-section">
+                        <h2>LiTong Group - 全球销售网络</h2>
+                        <p>我们致力于提供卓越的服务和本地支持，这体现在我们广泛的全球销售网络中。从香港总部到亚洲、欧洲和美洲的主要经济中心，LiTong Group团队战略性地位于各个位置以满足您的需求。请在下方找到您最近的办公室。</p>
+                        
+                        <div class="region-section">
+                            <h3 class="region-title">大中华区网络</h3>
+                            
+                            <div class="contact-grid">
+                                <div class="contact-card">
+                                    <h4>香港总部</h4>
+                                    <p><strong>地址：</strong>香港科学园沙田香港科技大道东7号绿景18座5楼</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:hk@elec-distributor.com">hk@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>北京办公室</h4>
+                                    <p><strong>地址：</strong>北京市通州区恒业北七街6号院19号楼2层101-215室</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:bj@elec-distributor.com">bj@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>上海办公室</h4>
+                                    <p><strong>地址：</strong>上海市宝矿国际商务中心705-706室，余通路100号</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:sh@elec-distributor.com">sh@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>深圳办公室</h4>
+                                    <p><strong>地址：</strong>深圳市福田保税区红花路6号长平商务大厦306-308室</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:sz@elec-distributor.com">sz@elec-distributor.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="region-section">
+                            <h3 class="region-title">国际销售办公室</h3>
+                            
+                            <h4 class="region-title">美洲</h4>
+                            <div class="contact-grid">
+                                <div class="contact-card">
+                                    <h4>美国 (USA)</h4>
+                                    <p><strong>地址：</strong>1776 K St NW, Washington, D.C. 20006, USA</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:john.smith@elec-distributor.com">john.smith@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>墨西哥</h4>
+                                    <p><strong>地址：</strong>Torre Mayor, Av. P. de la Reforma 505, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:sofia.hernandez@elec-distributor.com">sofia.hernandez@elec-distributor.com</a></p>
+                                </div>
+                            </div>
+                            
+                            <h4 class="region-title">欧洲</h4>
+                            <div class="contact-grid">
+                                <div class="contact-card">
+                                    <h4>德国</h4>
+                                    <p><strong>地址：</strong>Potsdamer Platz 1, 10785 Berlin, Germany</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:michael.muller@elec-distributor.com">michael.muller@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>意大利</h4>
+                                    <p><strong>地址：</strong>Piazzale dell'Industria, 40, 00144 Roma RM, Italy</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:giulia.rossi@elec-distributor.com">giulia.rossi@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>英国 (UK)</h4>
+                                    <p><strong>地址：</strong>20 Fenchurch St, London EC3M 3BY, United Kingdom</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:emily.jones@elec-distributor.com">emily.jones@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>波兰</h4>
+                                    <p><strong>地址：</strong>Warsaw Financial Center, Emilii Plater 53, 00-113 Warszawa, Poland</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:anna.kowalska@elec-distributor.com">anna.kowalska@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>斯洛伐克</h4>
+                                    <p><strong>地址：</strong>Twin City Tower, Mlynské nivy 10, 821 09 Bratislava, Slovakia</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:peter.horvath@elec-distributor.com">peter.horvath@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>俄罗斯</h4>
+                                    <p><strong>地址：</strong>Federation Tower, Presnenskaya nab., 12, Moscow, Russia, 123112</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:ivan.petrov@elec-distributor.com">ivan.petrov@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>土耳其</h4>
+                                    <p><strong>地址：</strong>Söğütözü, Söğütözü Cd. No:2, Armada Tower, 06510 Çankaya/Ankara, Turkey</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:elif.yilmaz@elec-distributor.com">elif.yilmaz@elec-distributor.com</a></p>
+                                </div>
+                            </div>
+                            
+                            <h4 class="region-title">亚太地区</h4>
+                            <div class="contact-grid">
+                                <div class="contact-card">
+                                    <h4>澳大利亚</h4>
+                                    <p><strong>地址：</strong>Australia Square, Level 33, 264 George Street, Sydney NSW 2000, Australia</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:liam.wilson@elec-distributor.com">liam.wilson@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>日本</h4>
+                                    <p><strong>地址：</strong>Marunouchi Park Building, 2-6-1 Marunouchi, Chiyoda-ku, Tokyo 100-0005, Japan</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:ken.tanaka@elec-distributor.com">ken.tanaka@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>韩国</h4>
+                                    <p><strong>地址：</strong>Gangnam Finance Center, 152 Teheran-ro, Gangnam-gu, Seoul, South Korea</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:seojoon.park@elec-distributor.com">seojoon.park@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>印度</h4>
+                                    <p><strong>地址：</strong>Worldmark 1, Aerocity, Indira Gandhi International Airport, New Delhi, Delhi 110037, India</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:priya.sharma@elec-distributor.com">priya.sharma@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>越南</h4>
+                                    <p><strong>地址：</strong>Lotte Center Hanoi, 54 Liễu Giai, Cống Vị, Ba Đình, Hà Nội, Vietnam</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:an.nguyen@elec-distributor.com">an.nguyen@elec-distributor.com</a></p>
+                                </div>
+                                
+                                <div class="contact-card">
+                                    <h4>马来西亚</h4>
+                                    <p><strong>地址：</strong>Petronas Twin Tower 1, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Malaysia</p>
+                                    <p><strong>邮箱：</strong><a href="mailto:siti.nurhaliza@elec-distributor.com">siti.nurhaliza@elec-distributor.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <aside class="sidebar">
+                    <div class="quick-contact">
+                        <h3>快速联系</h3>
+                        <p>通过以下方式立即联系我们</p>
+                        
+                        <a href="https://wa.me/8615013702378" target="_blank" class="contact-link">
+                            <span class="contact-icon">📱</span>
+                            <strong>WhatsApp:</strong> +86 15013702378
+                        </a>
+                        
+                        <a href="https://weixin.qq.com/" target="_blank" class="contact-link">
+                            <span class="contact-icon">💬</span>
+                            <strong>WeChat:</strong> +86 18612518271
+                        </a>
+                        
+                        <a href="mailto:info@litong-group.com" class="contact-link">
+                            <span class="contact-icon">✉️</span>
+                            <strong>邮箱:</strong> info@litong-group.com
+                        </a>
+                    </div>
+                    
+                    <div class="contact-section">
+                        <h3>发送消息给我们</h3>
+                        <form class="contact-form" id="contactForm" role="form" aria-label="联系表单">
+                            <div class="form-group">
+                                <label for="name">姓名 *</label>
+                                <input type="text" id="name" name="name" required aria-required="true" aria-describedby="name-error">
+                                <div class="error-message" id="name-error" role="alert" aria-live="polite"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">邮箱 *</label>
+                                <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-error">
+                                <div class="error-message" id="email-error" role="alert" aria-live="polite"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">主题 *</label>
+                                <select id="subject" name="subject" required aria-required="true" aria-describedby="subject-error">
+                                    <option value="">选择主题</option>
+                                    <option value="sales">销售咨询</option>
+                                    <option value="technical">技术支持</option>
+                                    <option value="quote">报价请求</option>
+                                    <option value="sample">样品申请</option>
+                                    <option value="general">一般咨询</option>
+                                    <option value="other">其他</option>
+                                </select>
+                                <div class="error-message" id="subject-error" role="alert" aria-live="polite"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">消息 *</label>
+                                <textarea id="message" name="message" rows="4" required aria-required="true" aria-describedby="message-error"></textarea>
+                                <div class="error-message" id="message-error" role="alert" aria-live="polite"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large">发送消息</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-section">
+                        <h3>办公时间</h3>
+                        <p><strong>周一至周五:</strong> 8:00 AM - 6:00 PM (CST)</p>
+                        <p><strong>周六:</strong> 9:00 AM - 2:00 PM (CST)</p>
+                        <p><strong>周日:</strong> 休息</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>产品类别</h3>
+                    <ul>
+                        <li><a href="/products/semiconductors/">半导体</a></li>
+                        <li><a href="/products/ic/">集成电路</a></li>
+                        <li><a href="/products/discrete-components/">分立器件</a></li>
+                        <li><a href="/products/passive-components/">被动元件</a></li>
+                        <li><a href="/products/connectors/">连接器</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a href="/solutions/automotive/">汽车电子</a></li>
+                        <li><a href="/solutions/industrial/">工业控制</a></li>
+                        <li><a href="/solutions/consumer-electronics/">消费电子</a></li>
+                        <li><a href="/solutions/telecommunications/">通信设备</a></li>
+                        <li><a href="/solutions/iot/">物联网</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>支持</h3>
+                    <ul>
+                        <li><a href="/technical-support/">技术支持</a></li>
+                        <li><a href="/technical-support/datasheets/">数据手册</a></li>
+                        <li><a href="/technical-support/application-notes/">应用笔记</a></li>
+                        <li><a href="/technical-support/design-tools/">设计工具</a></li>
+                        <li><a href="/technical-support/training/">培训</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>公司</h3>
+                    <ul>
+                        <li><a href="/about/">关于我们</a></li>
+                        <li><a href="/news/">新闻</a></li>
+                        <li><a href="/careers/">招聘</a></li>
+                        <li><a href="/contact/">联系</a></li>
+                        <li><a href="/quality/">质量</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2026 LiTong Group - 全球电子元器件分销商. 保留所有权利.</p>
+                    <div class="footer-links">
+                        <a href="/privacy-policy/">隐私政策</a>
+                        <a href="/terms-of-service/">服务条款</a>
+                        <a href="/cookie-policy/">Cookie政策</a>
+                        <a href="/accessibility/">无障碍访问</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+
+            if (mobileMenuToggle && mobileMenuOverlay) {
+                mobileMenuToggle.addEventListener('click', function() {
+                    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                    this.setAttribute('aria-expanded', !isExpanded);
+                    mobileMenuOverlay.setAttribute('aria-hidden', isExpanded);
+                    mobileMenuOverlay.classList.toggle('active', !isExpanded);
+
+                    // Toggle body scroll lock
+                    document.body.style.overflow = !isExpanded ? 'hidden' : '';
+                });
+
+                // Close mobile menu when clicking outside
+                mobileMenuOverlay.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeMobileMenu();
+                    }
+                });
+            }
+
+            // Close mobile menu function
+            function closeMobileMenu() {
+                if (mobileMenuToggle && mobileMenuOverlay) {
+                    mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                    mobileMenuOverlay.setAttribute('aria-hidden', 'true');
+                    mobileMenuOverlay.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            }
+
+            // Close mobile menu when clicking on links
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-menu a');
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', closeMobileMenu);
+            });
+
+            // Contact form validation
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    // Simple validation
+                    let isValid = true;
+
+                    // Check required fields
+                    const requiredFields = contactForm.querySelectorAll('[required]');
+                    requiredFields.forEach(field => {
+                        if (!field.value.trim()) {
+                            isValid = false;
+                            showError(field.id, '此字段为必填项');
+                        } else {
+                            hideError(field.id);
+                        }
+                    });
+
+                    // Validate email
+                    const emailField = document.getElementById('email');
+                    if (emailField.value && !isValidEmail(emailField.value)) {
+                        isValid = false;
+                        showError('email', '请输入有效的邮箱地址');
+                    }
+
+                    if (isValid) {
+                        // Form is valid, submit
+                        alert('感谢您的消息！我们的团队将尽快与您联系。');
+                        contactForm.reset();
+                    }
+                });
+
+                // Real-time validation
+                const fields = contactForm.querySelectorAll('input, select, textarea');
+                fields.forEach(field => {
+                    field.addEventListener('blur', function() {
+                        if (this.hasAttribute('required') && !this.value.trim()) {
+                            showError(this.id, '此字段为必填项');
+                        } else if (this.type === 'email' && this.value && !isValidEmail(this.value)) {
+                            showError(this.id, '请输入有效的邮箱地址');
+                        } else {
+                            hideError(this.id);
+                        }
+                    });
+                });
+            }
+
+            // Error handling functions
+            function showError(fieldId, message) {
+                const errorElement = document.getElementById(fieldId + '-error');
+                if (errorElement) {
+                    errorElement.textContent = message;
+                    errorElement.style.display = 'block';
+                }
+            }
+
+            function hideError(fieldId) {
+                const errorElement = document.getElementById(fieldId + '-error');
+                if (errorElement) {
+                    errorElement.style.display = 'none';
+                    errorElement.textContent = '';
+                }
+            }
+
+            function isValidEmail(email) {
+                const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return re.test(email);
+            }
+        });
+    </script>
+</body>
+</html>
